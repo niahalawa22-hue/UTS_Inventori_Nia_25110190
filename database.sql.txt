@@ -1,0 +1,9 @@
+CREATE DATABASE db_inventori;
+USE db_inventori;
+CREATE TABLE barang (
+    kode_barang VARCHAR(10) PRIMARY KEY,
+    nama_barang VARCHAR(50) NOT NULL,
+    kategori    VARCHAR(20) NOT NULL,
+    stok        INT NOT NULL
+);
+
